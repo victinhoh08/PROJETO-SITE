@@ -63,3 +63,9 @@ main{
 .botao:hover{
 
 }
+
+@media(max-width: 600px){
+    .card{
+        width: 95%;
+    }
+}
