@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
-<body>
+<body data-theme="light">
     <header>
         <h1>SETIF 2025 - Semana de Tecnologia da Informação </h1>
     </header>
@@ -17,8 +17,12 @@
         <p>Participe da SETIF 2025  e veja tendências que irão moldar o futuro da tecnologia</p>
         <p><span class="negrito">Data: </span>10 de outubro de 2025</p>
         <p><span class="negrito">Local: </span> IFPR Campus  Paranavaí</p>
-        <button class="botao">Inscreva-se</button> 
-        <button class="botao">Saiba mais</button>
+        <div>
+            <button class="botao">Inscreva-se</button> 
+            <button class="botao">Saiba mais</button>
+            <button id="btAlterarTema"onclick="alterarTema()" class="botao">Modo Escuro</button>
+            <button onclick="buscarInscritos()" class="botao"> ola</button>
+        </div>
 
         <div class="cards">
             <div class="card">
@@ -37,9 +41,10 @@
                 <p>Especialista no setor</p>
             </div>
         </div>
-    </main>
+        <div id="inscritos">
 
-    
-    
+        </div>
+    </main>
+    <script src="js/index.js"></script>
 </body>
 </html>

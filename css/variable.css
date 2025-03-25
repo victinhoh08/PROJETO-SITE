@@ -1,0 +1,12 @@
+:root {
+    --bg-color-body: #111;
+    --bg-color-container: #222;
+
+    --font-color: #fff;
+}
+
+[data-theme="light"] {
+    --bg-color-body: #b6b6b6;
+    --bg-color-container: #d6d4d4;
+    --font-color: #111;
+}
