@@ -19,9 +19,9 @@
         <p><span class="negrito">Local: </span> IFPR Campus  Paranavaí</p>
         <div>
             <button class="botao">Inscreva-se</button> 
-            <button class="botao">Saiba mais</button>
+            <button id="saiba mais" class="botao">Saiba mais</button>
             <button id="btAlterarTema"onclick="alterarTema()" class="botao">Modo Escuro</button>
-            <button onclick="buscarInscritos()" class="botao"> ola</button>
+            <button onclick="buscarInscritos()" class="botao">Buscar inscritos</button>
         </div>
 
         <div class="cards">
@@ -45,6 +45,13 @@
 
         </div>
     </main>
+    <div id="modal"class="modal hidden">
+        <div class="modal-content">
+            <span class="fechar" id="fecharModal">&times;</span>
+            <h1>SETIF 2025</h1>
+            <p>A SETIF SERA DIA 02/02/2025</p>
+        </div>
+    </div>
     <script src="js/index.js"></script>
 </body>
 </html>
