@@ -9,12 +9,13 @@
 
 <body data-theme="light">
     <header>
-        <h1>SETIF 2025 - Semana de Tecnologia da Informação </h1>
+        <h1 tabindex="0" data-i18n="titulo">SETIF 2025 - Semana de Tecnologia da Informação</h1>
+        <button aria-label="Botão para alterar o idioma" onclick="alterarIdioma()" aria>PT/EN</button>
     </header>
     <main>
         <img src="OIP.jpg" alt="Banner">
-        <h3> O evento TECH mais esperado do ano</h3>
-        <p>Participe da SETIF 2025  e veja tendências que irão moldar o futuro da tecnologia</p>
+        <h3 data-i18n="titulo-evento" aria-labelledby="titulo"> O evento TECH mais esperado do ano</h3>
+        <p>Participe da SETIF 2025 e veja tendências que irão moldar o futuro da tecnologia</p>
         <p><span class="negrito">Data: </span>10 de outubro de 2025</p>
         <p><span class="negrito">Local: </span> IFPR Campus  Paranavaí</p>
         <div>
@@ -26,7 +27,7 @@
 
         <div class="cards">
             <div class="card">
-                <img src="palestrante.jpg" alt="Palestrante1">
+                <img src="palestrante.jpg" alt="Palestrante1" data-i18n-alt="imagem-palestrante">
                 <h3>Palestras</h3>
                 <p>Especialista no setor</p>
             </div>
